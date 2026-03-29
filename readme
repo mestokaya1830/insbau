@@ -1,0 +1,26 @@
+# Ins-Bau-Profis | Modern PWA Landing Page
+
+A high-performance, SEO-optimized, and accessible Progressive Web App (PWA) developed for a German-based construction and renovation company.
+
+## 📱 Progressive Web App (PWA) Features
+This project isn't just a website; it's a fully installable Web App:
+* **Installable:** Integrated `manifest.json` allows users to "Add to Home Screen" on Android and iOS.
+* **Mobile-First UI:** Designed with a native app feel, including a custom theme color and splash screen icons.
+* **Reliability:** Optimized for quick loading even on slower mobile networks common in construction sites.
+
+## 🚀 Key Features
+* **Performance Optimized:** Assets served in `.webp` format; critical CSS and fonts use `preload` to ensure lightning-fast loading.
+* **SEO-Friendly:** Semantic HTML5 tags and optimized meta-data for maximum search engine visibility.
+* **Accessibility (A11y):** Fully compliant with ARIA standards (`aria-label`, `role`, `aria-expanded`) for screen-reader compatibility.
+* **Smooth UX:** Responsive design featuring a custom mobile navigation and ScrollReveal animations.
+
+## 🛠 Technical Implementation
+* **Critical Path Optimization:** Minimized render-blocking by preloading fonts and using asynchronous CSS loading.
+* **PWA Manifest:** Configured `theme-color`, `background_color`, and multiple icon sizes for cross-platform support.
+* **Form Validation:** Custom JavaScript-based validation for the contact form with accessible real-time error reporting.
+* **Resource Efficiency:** Implemented `loading="lazy"` for off-screen images to save bandwidth and improve LCP.
+
+## 💻 Tech Stack
+* **Frontend:** HTML5, CSS3, Vanilla JavaScript
+* **PWA:** Web App Manifest (`manifest.json`)
+* **Libraries:** ScrollReveal (Animations), BoxIcons
